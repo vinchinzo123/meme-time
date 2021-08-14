@@ -1,0 +1,29 @@
+{
+  "name": "meme-time",
+  "version": "1.0.0",
+  "description": "Collect fun memes to share with friends",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinchinzo123/meme-time.git"
+  },
+  "keywords": [
+    "meme",
+    "time"
+  ],
+  "author": "Vincent Newsom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinchinzo123/meme-time/issues"
+  },
+  "homepage": "https://github.com/vinchinzo123/meme-time#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0"
+  }
+}
